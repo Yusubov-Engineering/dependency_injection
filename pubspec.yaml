@@ -1,0 +1,10 @@
+name: dependency_injection
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+  flutter: '>=1.17.0'
+
+workspace:
+  - dependency_injection_api
+  - dependency_injection_impl
