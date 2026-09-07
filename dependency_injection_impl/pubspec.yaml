@@ -1,6 +1,7 @@
 name: dependency_injection_impl
 description: "Implementation details of Dependency Injection Module"
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ^3.13.0
