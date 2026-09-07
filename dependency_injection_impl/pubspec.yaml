@@ -16,3 +16,10 @@ dependencies:
       path: dependency_injection_api
       ref: v1.0.0
   get_it: ^9.2.1
+
+dev_dependencies:
+  app_linter:
+    git:
+      url: git@github.com:Yusubov-Engineering/app_linter.git
+      path: .
+      ref: v1.0.0

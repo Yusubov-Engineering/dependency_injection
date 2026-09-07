@@ -9,3 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+dev_dependencies:
+  app_linter:
+    git:
+      url: git@github.com:Yusubov-Engineering/app_linter.git
+      path: .
+      ref: v1.0.0
