@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   dependency_injection_api:
     git:
-      url: git@github.com:Yusubov-Engineering/dependency_injection.git
+      url: https://github.com/Yusubov-Engineering/dependency_injection.git
       path: dependency_injection_api
       ref: v1.0.0
   get_it: ^9.2.1
@@ -20,6 +20,6 @@ dependencies:
 dev_dependencies:
   app_linter:
     git:
-      url: git@github.com:Yusubov-Engineering/app_linter.git
+      url: https://github.com/Yusubov-Engineering/app_linter.git
       path: .
       ref: v1.0.0

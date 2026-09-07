@@ -20,12 +20,12 @@ pinned to a tag:
 dependencies:
   dependency_injection_api:
     git:
-      url: git@github.com:Yusubov-Engineering/dependency_injection.git
+      url: https://github.com/Yusubov-Engineering/dependency_injection.git
       path: dependency_injection_api
       ref: v1.0.0
   dependency_injection_impl:
     git:
-      url: git@github.com:Yusubov-Engineering/dependency_injection.git
+      url: https://github.com/Yusubov-Engineering/dependency_injection.git
       path: dependency_injection_impl
       ref: v1.0.0
 ```
