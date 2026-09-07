@@ -2,8 +2,6 @@ name: dependency_injection_impl
 description: "Implementation details of Dependency Injection Module"
 version: 1.0.0
 
-resolution: workspace
-
 environment:
   sdk: ^3.13.0
   flutter: ">=1.17.0"
@@ -12,4 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   dependency_injection_api:
+    git:
+      url: git@github.com:Yusubov-Engineering/dependency_injection.git
+      path: dependency_injection_api
+      ref: v1.0.0
   get_it: ^9.2.1
