@@ -1,0 +1,12 @@
+name: dependency_injection_api
+description: "Api protocols of Dependency Injection Module"
+version: 1.0.0
+
+resolution: workspace
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
