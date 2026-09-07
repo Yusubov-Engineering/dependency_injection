@@ -32,12 +32,11 @@ dependencies:
 
 ## Local development
 
-The two packages share one pub workspace, declared in the root
-`pubspec.yaml`:
+Each package resolves independently — there is no shared workspace root:
 
 ```bash
-flutter pub get   # resolves both dependency_injection_api and dependency_injection_impl
-flutter analyze
+cd dependency_injection_api && flutter pub get && flutter analyze && cd ..
+cd dependency_injection_impl && flutter pub get && flutter analyze && cd ..
 ```
 
 ## Releasing
